@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GM Business Marketing | Mehr Sichtbarkeit. Mehr Kunden. Mehr Erfolg.</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            purple: '#8B5CF6',
+                            purpleDark: '#6D28D9',
+                            darkBg: '#09090B',
+                            cardBg: '#121218',
+                            border: '#27272A'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Calendly Pop-up Widget CSS & JS -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+</head>
+<body class="bg-brand-darkBg text-slate-100 font-sans antialiased selection:bg-purple-600 selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-brand-darkBg/90 backdrop-blur-md border-b border-brand-border">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <!-- Brand Logo Text -->
+            <div class="flex items-center space-x-3">
+                <a href="#" class="text-2xl font-black tracking-tight text-white flex items-center gap-1">
+                    <span class="text-3xl font-extrabold text-white">GM</span>
+                    <span class="text-xs font-bold bg-purple-600 text-white px-2 py-0.5 rounded tracking-widest uppercase">Business</span>
+                </a>
+            </div>
+            
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+                <a href="#ki-loesungen" class="hover:text-purple-400 transition">KI für Unternehmen</a>
+                <a href="#angebote" class="hover:text-purple-400 transition">Unsere Angebote</a>
+                <a href="#kontakt" class="hover:text-purple-400 transition">Kontakt</a>
+            </div>
+
+            <!-- Calendly CTA Button -->
+            <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/gabriele-maier-info/30min'}); return false;" 
+                    class="bg-purple-600 hover:bg-purple-500 text-white font-bold px-5 py-2.5 rounded-xl transition shadow-lg shadow-purple-600/30">
+                Jetzt Erstgespräch buchen
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-36 pb-16 px-6 max-w-7xl mx-auto text-center relative overflow-hidden">
+        <!-- Background Glow Effect -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-purple-600/20 rounded-full blur-3xl -z-10"></div>
+
+        <span class="text-purple-400 text-xs md:text-sm font-bold tracking-widest uppercase bg-purple-950/60 px-4 py-2 rounded-full border border-purple-800/50 inline-block mb-6">
+            Mehr Sichtbarkeit. Mehr Kunden. Mehr Erfolg.
+        </span>
+        <h1 class="text-4xl md:text-6xl font-black text-white leading-tight mb-6">
+            Digitales Marketing & KI-Systeme<br/>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-400">
+                für nachhaltiges Business-Wachstum.
+            </span>
+        </h1>
+        <p class="text-slate-400 text-lg md:text-xl max-w-3xl mx-auto mb-10">
+            Wir unterstützen Unternehmen & Selbstständige mit intelligenten KI-Lösungen, professionellem Chat-Setting, maßgeschneiderten Webseiten und ausdrucksstarken Logos.
+        </p>
+        
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+            <!-- Primary Calendly CTA Button -->
+            <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/gabriele-maier-info/30min'}); return false;" 
+                    class="bg-purple-600 hover:bg-purple-500 text-white font-bold px-8 py-4 rounded-xl shadow-xl shadow-purple-600/30 transition text-lg flex items-center justify-center gap-2">
+                <span>📅 Jetzt kostenloses Gespräch buchen</span>
+            </button>
+            <a href="#ki-loesungen" class="border border-brand-border hover:bg-slate-900 text-slate-300 font-medium px-8 py-4 rounded-xl transition text-lg">
+                Leistungen entdecken
+            </a>
+        </div>
+    </section>
+
+    <!-- Angebot 1: KI Highlight für Kleinunternehmen & Hotels (JETZT OBEN) -->
+    <section id="ki-loesungen" class="py-12 relative">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="bg-gradient-to-b from-purple-950/40 to-brand-cardBg border-2 border-purple-600/60 rounded-3xl p-8 md:p-12 shadow-2xl relative">
+                <span class="bg-purple-600 text-white font-black text-xs uppercase tracking-widest px-4 py-1.5 rounded-full inline-block mb-6 shadow-md">
+                    Highlight Angebot 🚀
+                </span>
+                
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 class="text-3xl md:text-5xl font-black text-white mb-6">
+                            KI-Lösungen für Kleinunternehmen & Hotels
+                        </h2>
+                        <p class="text-slate-300 text-base md:text-lg mb-8 leading-relaxed">
+                            Revolutionieren Sie Ihr Kundenservice- und Buchungssystem. Unsere KI-Software übernimmt die Kundenbetreuung und Terminabwicklung lückenlos rund um die Uhr.
+                        </p>
+
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-4">
+                                <div class="bg-purple-600/20 text-purple-400 p-2 rounded-lg font-bold">24/7</div>
+                                <div>
+                                    <h4 class="font-bold text-white">Rundum-die-Uhr-Erreichbarkeit</h4>
+                                    <p class="text-slate-400 text-sm">Keine verpassten Anfragen mehr – Kunden erhalten sofort Antworten und Terminbestätigungen.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="bg-purple-600/20 text-purple-400 p-2 rounded-lg font-bold">📅</div>
+                                <div>
+                                    <h4 class="font-bold text-white">Vollintegrierte Buchungssoftware</h4>
+                                    <p class="text-slate-400 text-sm">Direkte Termin- & Zimmerbuchungen ohne manuellen Aufwand für Rezeption oder Büro.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="bg-purple-600/20 text-purple-400 p-2 rounded-lg font-bold">💡</div>
+                                <div>
+                                    <h4 class="font-bold text-white">Maximale Ersparnis & Verlässlichkeit</h4>
+                                    <p class="text-slate-400 text-sm">Kein Krankenstand, keine Urlaubsausfälle, keine Lohnnebenkosten – dafür 100 % planbare Performance.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Callout Card inside Highlight -->
+                    <div class="bg-slate-900 border border-purple-500/30 p-8 rounded-2xl text-center space-y-6">
+                        <h3 class="text-2xl font-bold text-white">Jetzt Betrieb digital aufstellen</h3>
+                        <p class="text-slate-400 text-sm">
+                            Lassen Sie uns gemeinsam prüfen, wie viel Zeit und Personalkosten Sie durch unsere KI-Buchungssoftware einsparen können.
+                        </p>
+                        <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/gabriele-maier-info/30min'}); return false;" 
+                                class="w-full bg-purple-600 hover:bg-purple-500 text-white font-bold py-4 rounded-xl shadow-lg shadow-purple-600/40 transition text-base">
+                            📅 Kostenloses KI-Erstgespräch vereinbaren
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Die 3 weiteren Angebote (JETZT DARUNTER) -->
+    <section id="angebote" class="py-20 bg-slate-950 border-t border-brand-border">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-white">Weitere Leistungen & Services</h2>
+                <p class="text-slate-400 mt-3">Maßgeschneiderte Unterstützung für Ihren digitalen Marktauftritt</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Angebot 1 -->
+                <div class="bg-brand-cardBg border border-brand-border hover:border-purple-600/50 p-8 rounded-2xl transition shadow-xl relative group">
+                    <div class="w-14 h-14 bg-purple-600/10 text-purple-400 rounded-xl flex items-center justify-center text-2xl font-bold mb-6 group-hover:bg-purple-600 group-hover:text-white transition">
+                        💬
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Professionelles Chat-Setting</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                        Maximieren Sie Ihre Conversion-Rate durch qualifiziertes Chat-Setting. Wir übernehmen die persönliche Betreuung Ihrer Anfragen auf Social Media oder Messenger-Plattformen und verwandeln Interessenten in zahlende Kunden.
+                    </p>
+                    <ul class="space-y-2 text-slate-300 text-sm">
+                        <li class="flex items-center gap-2"><span class="text-purple-400">✓</span> Hohe Konvertierungsraten</li>
+                        <li class="flex items-center gap-2"><span class="text-purple-400">✓</span> Zielgerichtete Einwandbehandlung</li>
+                        <li class="flex items-center gap-2"><span class="text-purple-400">✓</span> Entlastung Ihres Vertriebsteams</li>
+                    </ul>
+                </div>
+
+                <!-- Angebot 2 -->
+                <div class="bg-brand-cardBg border border-brand-border hover:border-purple-600/50 p-8 rounded-2xl transition shadow-xl relative group">
+                    <div class="w-14 h-14 bg-purple-600/10 text-purple-400 rounded-xl flex items-center justify-center text-2xl font-bold mb-6 group-hover:bg-purple-600 group-hover:text-white transition">
+                        💻
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Webseiten & Logo-Erstellung</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                        Ihr visueller Auftritt ist die Visitenkarte Ihres Unternehmens. Wir designen moderne, verkaufsoptimierte Websites sowie prägnante Marken-Logos, die im Gedächtnis bleiben und Vertrauen aufbauen.
+                    </p>
+                    <ul class="space-y-2 text-slate-300 text-sm">
+                        <li class="flex items-center gap-2"><span class="text-purple-400">✓</span> Einzigartiges, modernes Design</li>
+                        <li class="flex items-center gap-2"><span class="text-purple-400">✓</span> Für Mobilgeräte perfekt optimiert</li>
+                        <li class="flex items-center gap-2"><span class="text-purple-400">✓</span> Markenstarke Logo-Entwicklung</li>
+                    </ul>
+                </div>
+
+                <!-- Angebot 3 -->
+                <div class="bg-brand-cardBg border border-brand-border hover:border-purple-600/50 p-8 rounded-2xl transition shadow-xl relative group">
+                    <div class="w-14 h-14 bg-purple-600/10 text-purple-400 rounded-xl flex items-center justify-center text-2xl font-bold mb-6 group-hover:bg-purple-600 group-hover:text-white transition">
+                        📝
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Schreibarbeiten & Copywriting</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                        Präzise, punktgenaue Texte für Ihre Marke. Von verkaufsstarken Werbetexten über Content-Erstellung bis hin zu strukturierten Schreib- und Korrekturarbeiten – professionell und pünktlich geliefert.
+                    </p>
+                    <ul class="space-y-2 text-slate-300 text-sm">
+                        <li class="flex items-center gap-2"><span class="text-purple-400">✓</span> Verkaufsförderndes Copywriting</li>
+                        <li class="flex items-center gap-2"><span class="text-purple-400">✓</span> Textüberarbeitung & Korrektorat</li>
+                        <li class="flex items-center gap-2"><span class="text-purple-400">✓</span> Flexible Erstellung im Homeoffice</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Kontakt Section -->
+    <footer id="kontakt" class="py-16 bg-slate-950 border-t border-brand-border">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h3 class="text-3xl font-black text-white mb-4">GM Business Marketing</h3>
+                <p class="text-slate-400 text-sm mb-6">
+                    Ihr Partner für digitales Wachstum, professionelles Marketing und intelligente KI-Prozesse.
+                </p>
+                <div class="space-y-3 text-slate-300 text-sm">
+                    <p class="flex items-center gap-3">
+                        <span class="text-purple-400 font-bold">📞 Telefon:</span> 
+                        <a href="tel:+436641605582" class="hover:text-purple-400 transition">+43 664 160 55 82</a>
+                    </p>
+                    <p class="flex items-center gap-3">
+                        <span class="text-purple-400 font-bold">✉️ E-Mail:</span> 
+                        <a href="mailto:info@gabriele-maier.at" class="hover:text-purple-400 transition">info@gabriele-maier.at</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="text-center md:text-right">
+                <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/gabriele-maier-info/30min'}); return false;" 
+                        class="bg-purple-600 hover:bg-purple-500 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition text-base inline-block">
+                    Jetzt Termin online buchen
+                </button>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-6 pt-12 mt-12 border-t border-slate-900 text-center text-slate-600 text-xs">
+            <p>&copy; GM Business Marketing – Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
