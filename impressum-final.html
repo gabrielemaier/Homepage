@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impressum | GM Business Marketing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            purple: '#8B5CF6',
+                            darkBg: '#303036',
+                            cardBg: '#3A3A42',
+                            border: '#5A5A66'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-darkBg text-white antialiased">
+<header class="border-b border-brand-border">
+    <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+        <a href="index.html"><img src="logo.jpg" alt="GM Business Marketing" class="h-12 w-auto rounded-lg"></a>
+        <a href="index.html" class="text-slate-200 hover:text-purple-300 transition">Zur Startseite</a>
+    </div>
+</header>
+
+<main class="py-16 px-6">
+    <div class="max-w-4xl mx-auto">
+        <span class="text-purple-300 text-sm font-bold uppercase tracking-widest">Rechtliche Informationen</span>
+        <h1 class="text-4xl md:text-5xl font-black mt-3 mb-8">Impressum</h1>
+
+        <div class="bg-brand-cardBg border border-brand-border rounded-3xl p-8 md:p-10 space-y-6 text-slate-300 leading-relaxed">
+            <p class="text-white font-bold text-xl">GM Business Marketing</p>
+            <p>
+                <strong class="text-white">Inhaberin:</strong> Gabriele Maier<br>
+                <strong class="text-white">Anschrift:</strong> Raschbach 21, 4861 Aurach am Hongar, Österreich<br>
+                <strong class="text-white">E-Mail:</strong> info@gabriele-maier.at<br>
+                <strong class="text-white">Telefon:</strong> +43 664 160 55 82<br>
+                <strong class="text-white">UID-Nr.:</strong> ATU56991937
+            </p>
+
+            <div class="border-t border-brand-border pt-6">
+                <p class="text-white font-bold text-lg mb-3">Aufsichts- und Gewerbebehörde</p>
+                <p>
+                    Bezirkshauptmannschaft Vöcklabruck<br>
+                    Anwendbare Rechtsvorschriften: Gewerbeordnung (GewO)
+                </p>
+            </div>
+
+            <div class="border-t border-brand-border pt-6">
+                <p class="text-white font-bold text-lg mb-3">Medieninhaberin</p>
+                <p>
+                    Gabriele Maier<br>
+                    Raschbach 21, 4861 Aurach am Hongar, Österreich
+                </p>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
