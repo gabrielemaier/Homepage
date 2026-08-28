@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="de" class="scroll-smooth">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GM Business Marketing | Mehr Sichtbarkeit. Mehr Kunden. Mehr Erfolg.</title>
-    <!-- Tailwind CSS CDN -->
+    <title>Impressum | GM Business Marketing</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -13,7 +12,6 @@
                     colors: {
                         brand: {
                             purple: '#8B5CF6',
-                            purpleDark: '#6D28D9',
                             darkBg: '#303036',
                             cardBg: '#3A3A42',
                             border: '#5A5A66'
@@ -24,411 +22,46 @@
         }
     </script>
 </head>
-<body class="bg-brand-darkBg text-slate-100 font-sans antialiased selection:bg-purple-600 selection:text-white">
+<body class="bg-brand-darkBg text-white antialiased">
+<header class="border-b border-brand-border">
+    <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+        <a href="index.html"><img src="logo.jpg" alt="GM Business Marketing" class="h-12 w-auto rounded-lg"></a>
+        <a href="index.html" class="text-slate-200 hover:text-purple-300 transition">Zur Startseite</a>
+    </div>
+</header>
 
-    <!-- Navigation -->
-    <nav class="fixed w-full z-50 bg-brand-darkBg/90 backdrop-blur-md border-b border-brand-border">
-        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-            <!-- Brand Logo Bild -->
-            <div class="flex items-center space-x-3">
-                <a href="#">
-                    <img src="logo.jpg" alt="GM Business Marketing Logo" class="h-12 w-auto object-contain rounded-lg">
-                </a>
-            </div>
-            
-            <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
-                <a href="#ki-loesungen" class="hover:text-purple-400 transition">Digitale Lösungen</a>
-                
-                <a href="weitere-leistungen.html" class="hover:text-purple-300 transition">Weitere Leistungen</a>
-                <a href="ueber-uns.html" class="hover:text-purple-400 transition">Über uns</a>
-                <a href="#kontakt" class="hover:text-purple-400 transition">Kontakt</a>
-            </div>
+<main class="py-16 px-6">
+    <div class="max-w-4xl mx-auto">
+        <span class="text-purple-300 text-sm font-bold uppercase tracking-widest">Rechtliche Informationen</span>
+        <h1 class="text-4xl md:text-5xl font-black mt-3 mb-8">Impressum</h1>
 
-            <!-- Calendly CTA Button -->
-            <a href="https://calendly.com/gabriele-maier-info" target="_blank" rel="noopener noreferrer" class="bg-purple-600 hover:bg-purple-500 text-white font-bold px-5 py-2.5 rounded-xl transition shadow-lg shadow-purple-600/30">Jetzt Erstgespräch buchen</a>
-        </div>
-    </nav>
+        <div class="bg-brand-cardBg border border-brand-border rounded-3xl p-8 md:p-10 space-y-6 text-slate-300 leading-relaxed">
+            <p class="text-white font-bold text-xl">GM Business Marketing</p>
+            <p>
+                <strong class="text-white">Inhaberin:</strong> Gabriele Maier<br>
+                <strong class="text-white">Anschrift:</strong> Raschbach 21, 4861 Aurach am Hongar, Österreich<br>
+                <strong class="text-white">E-Mail:</strong> info@gabriele-maier.at<br>
+                <strong class="text-white">Telefon:</strong> +43 664 160 55 82<br>
+                <strong class="text-white">UID-Nr.:</strong> ATU56991937
+            </p>
 
-    <!-- Hero Section -->
-    <section class="pt-36 pb-16 px-6 max-w-7xl mx-auto text-center relative overflow-hidden">
-        <!-- Background Glow Effect -->
-        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-purple-600/20 rounded-full blur-3xl -z-10"></div>
-
-        <span class="text-purple-400 text-xs md:text-sm font-bold tracking-widest uppercase bg-purple-950/60 px-4 py-2 rounded-full border border-purple-800/50 inline-block mb-6">
-            Mehr Sichtbarkeit. Mehr Kunden. Mehr Erfolg.
-        </span>
-        <h1 class="text-4xl md:text-6xl font-black text-white leading-tight mb-6">
-            Digitale Lösungen, die für Sie arbeiten.<br/>
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-400">
-                Für nachhaltiges Business-Wachstum.
-            </span>
-        </h1>
-        <p class="text-slate-400 text-lg md:text-xl max-w-3xl mx-auto mb-10">
-            Wir unterstützen Unternehmen & Selbstständige mit intelligenten Automatisierungslösungen, maßgeschneiderten Webseiten und professioneller Markenentwicklung für einen überzeugenden digitalen Auftritt.
-        </p>
-        
-        <div class="flex flex-col sm:flex-row justify-center gap-4">
-            <!-- Primary Calendly CTA Button -->
-            <a href="https://calendly.com/gabriele-maier-info" target="_blank" rel="noopener noreferrer" class="bg-purple-600 hover:bg-purple-500 text-white font-bold px-8 py-4 rounded-xl shadow-xl shadow-purple-600/30 transition text-lg flex items-center justify-center gap-2"><span>📅 Jetzt kostenloses Gespräch buchen</span></a>
-            <a href="#ki-loesungen" class="border border-brand-border hover:bg-zinc-700 text-slate-300 font-medium px-8 py-4 rounded-xl transition text-lg">
-                Leistungen entdecken
-            </a>
-        </div>
-    </section>
-
-    <!-- Angebot 1: KI Highlight für Kleinunternehmen & Hotels (JETZT OBEN) -->
-    <section id="ki-loesungen" class="py-12 relative">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="bg-gradient-to-b from-purple-950/40 to-brand-cardBg border-2 border-purple-600/60 rounded-3xl p-8 md:p-12 shadow-2xl relative">
-                <span class="bg-purple-600 text-white font-black text-xs uppercase tracking-widest px-4 py-1.5 rounded-full inline-block mb-6 shadow-md">
-                    Highlight Angebot 🚀
-                </span>
-                
-                <div class="grid lg:grid-cols-2 gap-12 items-center">
-                    <div>
-                        <h2 class="text-3xl md:text-5xl font-black text-white mb-6">
-                            Digitale Lösungen, die für Sie arbeiten.
-                        </h2>
-                        <p class="text-slate-300 text-base md:text-lg mb-8 leading-relaxed">
-                            Von intelligenten Buchungs- und Gästeassistenten über digitale Kundenkommunikation bis hin zu individuell entwickelten Softwarelösungen: Wir entwickeln Systeme, die Zeit sparen, Abläufe vereinfachen und neue Umsatzpotenziale schaffen.
-                        </p>
-
-                        <div class="space-y-4">
-                            <div class="flex items-start gap-4">
-                                <div class="bg-purple-600/20 text-purple-400 p-2 rounded-lg font-bold">24/7</div>
-                                <div>
-                                    <h4 class="font-bold text-white">Rundum-die-Uhr-Erreichbarkeit</h4>
-                                    <p class="text-slate-400 text-sm">Keine verpassten Anfragen mehr – Kunden erhalten sofort Antworten und Terminbestätigungen.</p>
-                                </div>
-                            </div>
-                            <div class="flex items-start gap-4">
-                                <div class="bg-purple-600/20 text-purple-400 p-2 rounded-lg font-bold">📅</div>
-                                <div>
-                                    <h4 class="font-bold text-white">Vollintegrierte Buchungssoftware</h4>
-                                    <p class="text-slate-400 text-sm">Direkte Termin- & Zimmerbuchungen ohne manuellen Aufwand für Rezeption oder Büro.</p>
-                                </div>
-                            </div>
-                            <div class="flex items-start gap-4">
-                                <div class="bg-purple-600/20 text-purple-400 p-2 rounded-lg font-bold">💡</div>
-                                <div>
-                                    <h4 class="font-bold text-white">Maximale Ersparnis & Verlässlichkeit</h4>
-                                    <p class="text-slate-400 text-sm">Kein Krankenstand, keine Urlaubsausfälle, keine Lohnnebenkosten – dafür 100 % planbare Performance.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Callout Card inside Highlight -->
-                    <div class="bg-zinc-700 border border-purple-500/30 p-8 rounded-2xl text-center space-y-6">
-                        <h3 class="text-2xl font-bold text-white">Jetzt Betrieb digital aufstellen</h3>
-                        <p class="text-slate-400 text-sm">
-                            Lassen Sie uns gemeinsam prüfen, wie viel Zeit und Personalkosten Sie durch unsere KI-Buchungssoftware einsparen können.
-                        </p>
-                        <a href="https://calendly.com/gabriele-maier-info" target="_blank" rel="noopener noreferrer" class="w-full bg-purple-600 hover:bg-purple-500 text-white font-bold py-4 rounded-xl shadow-lg shadow-purple-600/40 transition text-base">📅 Kostenloses Erstgespräch vereinbaren</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Hotel App Demo -->
-    <section id="hotel-demo" class="py-20 px-6 bg-brand-darkBg">
-        <div class="max-w-7xl mx-auto">
-            <div class="text-center mb-14">
-                <span class="text-purple-300 text-sm font-bold uppercase tracking-widest">
-                    Beispiel einer individuellen Hotellösung
-                </span>
-                <h2 class="text-3xl md:text-5xl font-black text-white mt-3 mb-5">
-                    So könnte Ihre digitale Hotel-App aussehen
-                </h2>
-                <p class="text-slate-300 text-lg max-w-3xl mx-auto leading-relaxed">
-                    Eine zentrale digitale Lösung für Gästeanfragen, Buchungen, Informationen und Zusatzleistungen –
-                    individuell an Ihr Hotel, Ihre Abläufe und Ihre Gäste angepasst.
+            <div class="border-t border-brand-border pt-6">
+                <p class="text-white font-bold text-lg mb-3">Aufsichts- und Gewerbebehörde</p>
+                <p>
+                    Bezirkshauptmannschaft Vöcklabruck<br>
+                    Anwendbare Rechtsvorschriften: Gewerbeordnung (GewO)
                 </p>
             </div>
 
-            <div class="grid lg:grid-cols-2 gap-12 items-center">
-                <div class="flex justify-center">
-                    <div class="w-[320px] max-w-full bg-zinc-900 rounded-[2.5rem] border-[10px] border-zinc-800 shadow-2xl overflow-hidden">
-                        <div class="bg-gradient-to-br from-purple-700 to-purple-500 px-6 pt-7 pb-8 text-center">
-                            <div class="text-xs text-purple-100 mb-2">HOTEL DEMO</div>
-                            <h3 class="text-2xl font-black text-white">Willkommen 👋</h3>
-                            <p class="text-purple-100 text-sm mt-2">
-                                Wie können wir Ihren Aufenthalt noch angenehmer machen?
-                            </p>
-                        </div>
-
-                        <div class="bg-zinc-100 p-5 space-y-4 text-zinc-800">
-                            <div class="bg-white rounded-2xl p-4 shadow-sm border border-zinc-200">
-                                <div class="flex items-center gap-3">
-                                    <div class="text-2xl">🛏️</div>
-                                    <div>
-                                        <p class="font-bold">Zimmer & Aufenthalt</p>
-                                        <p class="text-xs text-zinc-500">Infos, Wünsche und Services</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="bg-white rounded-2xl p-4 shadow-sm border border-zinc-200">
-                                <div class="flex items-center gap-3">
-                                    <div class="text-2xl">🍽️</div>
-                                    <div>
-                                        <p class="font-bold">Tisch reservieren</p>
-                                        <p class="text-xs text-zinc-500">Direkt einen Termin auswählen</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="bg-white rounded-2xl p-4 shadow-sm border border-zinc-200">
-                                <div class="flex items-center gap-3">
-                                    <div class="text-2xl">💆</div>
-                                    <div>
-                                        <p class="font-bold">Wellness buchen</p>
-                                        <p class="text-xs text-zinc-500">Massagen & Anwendungen</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="bg-white rounded-2xl p-4 shadow-sm border border-zinc-200">
-                                <div class="flex items-center gap-3">
-                                    <div class="text-2xl">💬</div>
-                                    <div>
-                                        <p class="font-bold">Digitaler Gästeassistent</p>
-                                        <p class="text-xs text-zinc-500">24/7 Antworten auf häufige Fragen</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="bg-purple-600 text-white rounded-2xl p-4 text-center font-bold">
-                                Zusatzleistungen entdecken
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <h3 class="text-3xl font-black text-white mb-6">
-                        Mehr Service für Gäste. Weniger Aufwand für Ihr Team.
-                    </h3>
-                    <p class="text-slate-300 leading-relaxed mb-8">
-                        Die Anwendung kann auf Wunsch mit bestehenden Buchungs- und Informationsprozessen
-                        verbunden werden. Gäste erhalten schnell Antworten und können Leistungen selbstständig abrufen
-                        oder buchen – während Ihr Team bei wiederkehrenden Aufgaben entlastet wird.
-                    </p>
-
-                    <div class="grid sm:grid-cols-2 gap-4">
-                        <div class="bg-brand-cardBg border border-brand-border rounded-2xl p-5">
-                            <div class="text-purple-300 font-black mb-2">24/7</div>
-                            <h4 class="font-bold text-white mb-1">Gäste-Service</h4>
-                            <p class="text-slate-400 text-sm">Antworten und Informationen rund um die Uhr.</p>
-                        </div>
-
-                        <div class="bg-brand-cardBg border border-brand-border rounded-2xl p-5">
-                            <div class="text-purple-300 font-black mb-2">📅</div>
-                            <h4 class="font-bold text-white mb-1">Direkte Buchungen</h4>
-                            <p class="text-slate-400 text-sm">Zimmer, Restaurant, Wellness oder Zusatzangebote.</p>
-                        </div>
-
-                        <div class="bg-brand-cardBg border border-brand-border rounded-2xl p-5">
-                            <div class="text-purple-300 font-black mb-2">⚙️</div>
-                            <h4 class="font-bold text-white mb-1">Automatisierte Abläufe</h4>
-                            <p class="text-slate-400 text-sm">Wiederkehrende Aufgaben digital unterstützen.</p>
-                        </div>
-
-                        <div class="bg-brand-cardBg border border-brand-border rounded-2xl p-5">
-                            <div class="text-purple-300 font-black mb-2">✨</div>
-                            <h4 class="font-bold text-white mb-1">Individuell anpassbar</h4>
-                            <p class="text-slate-400 text-sm">Design und Funktionen passend zu Ihrem Hotel.</p>
-                        </div>
-                    </div>
-
-                    <div class="mt-8">
-                        <a href="https://calendly.com/gabriele-maier-info"
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           class="inline-block bg-purple-600 hover:bg-purple-500 text-white font-bold px-7 py-3.5 rounded-xl transition shadow-lg shadow-purple-600/30">
-                            Hotellösung unverbindlich besprechen
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Praxisbeispiele / Kundennutzen -->
-    <section id="praxisbeispiele" class="py-20 px-6 bg-zinc-700/60 border-t border-brand-border">
-        <div class="max-w-7xl mx-auto">
-            <div class="text-center mb-14">
-                <span class="text-purple-300 text-sm font-bold uppercase tracking-widest">
-                    Praxisbeispiele
-                </span>
-                <h2 class="text-3xl md:text-5xl font-black text-white mt-3 mb-5">
-                    Was digitale Automatisierung im Alltag bewirken kann
-                </h2>
-                <p class="text-slate-300 text-lg max-w-3xl mx-auto leading-relaxed">
-                    Zwei beispielhafte Szenarien zeigen, wie automatisierte Anfragen, Buchungen und Kundenkommunikation
-                    Zeit sparen und zusätzliches Umsatzpotenzial erschließen können.
+            <div class="border-t border-brand-border pt-6">
+                <p class="text-white font-bold text-lg mb-3">Medieninhaberin</p>
+                <p>
+                    Gabriele Maier<br>
+                    Raschbach 21, 4861 Aurach am Hongar, Österreich
                 </p>
             </div>
-
-            <div class="grid lg:grid-cols-2 gap-8">
-                <!-- Massagepraxis -->
-                <div class="bg-brand-cardBg border border-purple-500/40 rounded-3xl p-8 md:p-10 shadow-xl">
-                    <div class="flex items-start gap-4 mb-6">
-                        <div class="w-14 h-14 shrink-0 bg-purple-600/20 text-purple-300 rounded-2xl flex items-center justify-center text-2xl">
-                            💆
-                        </div>
-                        <div>
-                            <span class="text-purple-300 text-xs font-bold uppercase tracking-widest">
-                                Beispiel: Massagepraxis
-                            </span>
-                            <h3 class="text-2xl font-black text-white mt-1">
-                                Keine Kundenanfrage mehr versäumen
-                            </h3>
-                        </div>
-                    </div>
-
-                    <p class="text-slate-300 leading-relaxed mb-6">
-                        Während einer Behandlung kann eine Masseurin weder ans Telefon gehen noch jede Nachricht sofort beantworten.
-                        Ein digitaler Assistent kann Anfragen rund um die Uhr entgegennehmen, häufige Fragen beantworten
-                        und freie Termine direkt zur Buchung anbieten.
-                    </p>
-
-                    <div class="space-y-3 text-slate-200 text-sm">
-                        <p><span class="text-purple-300 font-bold">✓</span> Anfragen werden auch während Behandlungen erfasst</p>
-                        <p><span class="text-purple-300 font-bold">✓</span> Terminbuchungen sind rund um die Uhr möglich</p>
-                        <p><span class="text-purple-300 font-bold">✓</span> Weniger Unterbrechungen im Arbeitsalltag</p>
-                        <p><span class="text-purple-300 font-bold">✓</span> Schnellere Reaktion auf neue Interessenten</p>
-                    </div>
-
-                    <div class="mt-7 bg-zinc-700 rounded-2xl p-5 border border-brand-border">
-                        <p class="text-white font-bold mb-2">Der praktische Nutzen:</p>
-                        <p class="text-slate-300 text-sm leading-relaxed">
-                            Statt später zurückzurufen und möglicherweise einen Kunden zu verlieren, wird die Anfrage sofort aufgenommen
-                            und kann direkt in einen Termin übergehen.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Pension -->
-                <div class="bg-brand-cardBg border border-purple-500/40 rounded-3xl p-8 md:p-10 shadow-xl">
-                    <div class="flex items-start gap-4 mb-6">
-                        <div class="w-14 h-14 shrink-0 bg-purple-600/20 text-purple-300 rounded-2xl flex items-center justify-center text-2xl">
-                            🏨
-                        </div>
-                        <div>
-                            <span class="text-purple-300 text-xs font-bold uppercase tracking-widest">
-                                Beispielrechnung: Pension mit 15 Zimmern
-                            </span>
-                            <h3 class="text-2xl font-black text-white mt-1">
-                                Rund um die Uhr buchbar – mit zusätzlichem Umsatzpotenzial
-                            </h3>
-                        </div>
-                    </div>
-
-                    <p class="text-slate-300 leading-relaxed mb-6">
-                        Gerade kleinere Pensionen sind nicht rund um die Uhr an der Rezeption erreichbar.
-                        Werden Buchungsanfragen außerhalb der Rezeptionszeiten automatisiert beantwortet,
-                        kann ein Teil dieser bisher verlorenen Anfragen zurückgewonnen werden.
-                    </p>
-
-                    <div class="grid sm:grid-cols-2 gap-4 mb-7">
-                        <div class="bg-zinc-700 rounded-2xl p-5 border border-brand-border">
-                            <p class="text-purple-300 text-2xl font-black">ca. 1.620 €</p>
-                            <p class="text-slate-300 text-sm mt-1">zusätzlicher Umsatz pro Monat*</p>
-                        </div>
-                        <div class="bg-zinc-700 rounded-2xl p-5 border border-brand-border">
-                            <p class="text-purple-300 text-2xl font-black">ca. 19.400 €</p>
-                            <p class="text-slate-300 text-sm mt-1">zusätzlicher Umsatz pro Jahr*</p>
-                        </div>
-                    </div>
-
-                    <div class="space-y-2 text-slate-300 text-sm mb-6">
-                        <p><strong class="text-white">Annahmen:</strong> 15 Zimmer, Ø 60 % Auslastung, Ø Zimmerpreis 90 €</p>
-                        <p>Ø Aufenthalt 2 Nächte → Ø Buchungswert ca. 180 €</p>
-                        <p>200 Buchungsanfragen/Monat, davon geschätzt 15 % außerhalb der Rezeptionszeiten</p>
-                        <p>Konservativ angenommen: 30 % dieser Anfragen werden zu zusätzlichen Buchungen</p>
-                    </div>
-
-                    <div class="mt-6 bg-purple-900/25 rounded-2xl p-6 border border-purple-500/40">
-                        <h4 class="text-xl font-black text-white mb-3">
-                            Mehr Direktbuchungen. Weniger Abhängigkeit von Buchungsplattformen.
-                        </h4>
-                        <p class="text-slate-300 text-sm leading-relaxed mb-3">
-                            Digitale Buchungssysteme und KI-gestützte Gästekommunikation können dabei helfen,
-                            mehr Anfragen direkt in Buchungen umzuwandeln. Das ist besonders interessant,
-                            weil Online-Reiseportale häufig Provisionen von
-                            <strong class="text-white">15–25 % des Buchungswerts</strong> verlangen.
-                        </p>
-                        <p class="text-white font-semibold text-sm leading-relaxed">
-                            Direktbuchungen bedeuten nicht nur mehr Umsatzpotenzial, sondern auch weniger
-                            Provisionsabfluss an Drittanbieter.
-                        </p>
-                    </div>
-
-                    <div class="bg-zinc-700 rounded-2xl p-5 border border-brand-border">
-                        <p class="text-white font-bold mb-2">Rechenweg:</p>
-                        <p class="text-slate-300 text-sm leading-relaxed">
-                            200 Anfragen × 15 % = 30 verpasste Anfragen. Davon 30 % zurückgewonnen = 9 zusätzliche Buchungen.
-                            9 × 180 € = <strong class="text-white">1.620 € zusätzlicher Monatsumsatz</strong>.
-                        </p>
-                        <p class="text-slate-400 text-xs mt-4 leading-relaxed">
-                            *Beispielrechnung auf Basis angenommener Ausgangswerte. Umsatz ist nicht gleich Gewinn und tatsächliche Ergebnisse
-                            hängen unter anderem von Auslastung, Nachfrage, Preisen und Konversionsrate ab.
-                            Zusätzliche Umsätze durch Sauna, Infrarotkabine, Abendessen oder andere Zusatzleistungen sind hier nicht eingerechnet.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="text-center mt-10">
-                <a href="https://calendly.com/gabriele-maier-info"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="inline-block bg-purple-600 hover:bg-purple-500 text-white font-bold px-8 py-4 rounded-xl transition shadow-lg shadow-purple-600/30">
-                    Eigenes Einspar- & Umsatzpotenzial besprechen
-                </a>
-            </div>
         </div>
-    </section>
-
-    <!-- Footer / Kontakt Section -->
-    <footer id="kontakt" class="py-16 bg-zinc-700/70 border-t border-brand-border">
-        <div class="max-w-6xl mx-auto px-6 pt-6 text-center">
-            <a href="impressum-final.html"
-               class="inline-block border border-purple-400 text-purple-200 hover:bg-purple-600 hover:text-white font-semibold px-6 py-3 rounded-xl transition">
-                Impressum
-            </a>
-        </div>
-
-        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-            <div>
-                <h3 class="text-3xl font-black text-white mb-4">GM Business Marketing</h3>
-                <p class="text-slate-400 text-sm mb-6">
-                    Ihr Partner für digitale Lösungen, KI-Automatisierung und einen professionellen Unternehmensauftritt.
-                </p>
-                <div class="space-y-3 text-slate-300 text-sm">
-                    <p class="flex items-center gap-3">
-                        <span class="text-purple-400 font-bold">📞 Telefon:</span> 
-                        <a href="tel:+436641605582" class="hover:text-purple-400 transition">+43 664 160 55 82</a>
-                    </p>
-                    <p class="flex items-center gap-3">
-                        <span class="text-purple-400 font-bold">✉️ E-Mail:</span> 
-                        <a href="mailto:info@gabriele-maier.at" class="hover:text-purple-400 transition">info@gabriele-maier.at</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="text-center md:text-right">
-                <a href="https://calendly.com/gabriele-maier-info" target="_blank" rel="noopener noreferrer" class="bg-purple-600 hover:bg-purple-500 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition text-base inline-block">Jetzt Termin online buchen</a>
-            </div>
-        </div>
-
-        <div class="max-w-7xl mx-auto px-6 pt-12 mt-12 border-t border-zinc-600 text-center text-slate-600 text-xs">
-            <p>&copy; GM Business Marketing – Alle Rechte vorbehalten.</p>
-        </div>
-        
-    </footer>
-
+    </div>
+</main>
 </body>
 </html>
