@@ -14,18 +14,15 @@
                         brand: {
                             purple: '#8B5CF6',
                             purpleDark: '#6D28D9',
-                            darkBg: '#09090B',
-                            cardBg: '#121218',
-                            border: '#27272A'
+                            darkBg: '#303036',
+                            cardBg: '#3A3A42',
+                            border: '#5A5A66'
                         }
                     }
                 }
             }
         }
     </script>
-    <!-- Calendly Pop-up Widget CSS & JS -->
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 </head>
 <body class="bg-brand-darkBg text-slate-100 font-sans antialiased selection:bg-purple-600 selection:text-white">
 
@@ -42,14 +39,12 @@
             <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
                 <a href="#ki-loesungen" class="hover:text-purple-400 transition">KI für Unternehmen</a>
                 <a href="#angebote" class="hover:text-purple-400 transition">Unsere Angebote</a>
+                <a href="ueber-uns.html" class="hover:text-purple-400 transition">Über uns</a>
                 <a href="#kontakt" class="hover:text-purple-400 transition">Kontakt</a>
             </div>
 
             <!-- Calendly CTA Button -->
-            <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/gabriele-maier-info/30min'}); return false;" 
-                    class="bg-purple-600 hover:bg-purple-500 text-white font-bold px-5 py-2.5 rounded-xl transition shadow-lg shadow-purple-600/30">
-                Jetzt Erstgespräch buchen
-            </button>
+            <a href="https://calendly.com/gabriele-maier-info" target="_blank" rel="noopener noreferrer" class="bg-purple-600 hover:bg-purple-500 text-white font-bold px-5 py-2.5 rounded-xl transition shadow-lg shadow-purple-600/30">Jetzt Erstgespräch buchen</a>
         </div>
     </nav>
 
@@ -68,16 +63,13 @@
             </span>
         </h1>
         <p class="text-slate-400 text-lg md:text-xl max-w-3xl mx-auto mb-10">
-            Wir unterstützen Unternehmen & Selbstständige mit intelligenten KI-Lösungen, professionellem Chat-Setting, maßgeschneiderten Webseiten und ausdrucksstarken Logos.
+            Wir unterstützen Unternehmen & Selbstständige mit intelligenten Automatisierungslösungen, maßgeschneiderten Webseiten und professioneller Markenentwicklung für einen überzeugenden digitalen Auftritt.
         </p>
         
         <div class="flex flex-col sm:flex-row justify-center gap-4">
             <!-- Primary Calendly CTA Button -->
-            <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/gabriele-maier-info/30min'}); return false;" 
-                    class="bg-purple-600 hover:bg-purple-500 text-white font-bold px-8 py-4 rounded-xl shadow-xl shadow-purple-600/30 transition text-lg flex items-center justify-center gap-2">
-                <span>📅 Jetzt kostenloses Gespräch buchen</span>
-            </button>
-            <a href="#ki-loesungen" class="border border-brand-border hover:bg-slate-900 text-slate-300 font-medium px-8 py-4 rounded-xl transition text-lg">
+            <a href="https://calendly.com/gabriele-maier-info" target="_blank" rel="noopener noreferrer" class="bg-purple-600 hover:bg-purple-500 text-white font-bold px-8 py-4 rounded-xl shadow-xl shadow-purple-600/30 transition text-lg flex items-center justify-center gap-2"><span>📅 Jetzt kostenloses Gespräch buchen</span></a>
+            <a href="#ki-loesungen" class="border border-brand-border hover:bg-zinc-700 text-slate-300 font-medium px-8 py-4 rounded-xl transition text-lg">
                 Leistungen entdecken
             </a>
         </div>
@@ -126,83 +118,64 @@
                     </div>
 
                     <!-- Callout Card inside Highlight -->
-                    <div class="bg-slate-900 border border-purple-500/30 p-8 rounded-2xl text-center space-y-6">
+                    <div class="bg-zinc-700 border border-purple-500/30 p-8 rounded-2xl text-center space-y-6">
                         <h3 class="text-2xl font-bold text-white">Jetzt Betrieb digital aufstellen</h3>
                         <p class="text-slate-400 text-sm">
                             Lassen Sie uns gemeinsam prüfen, wie viel Zeit und Personalkosten Sie durch unsere KI-Buchungssoftware einsparen können.
                         </p>
-                        <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/gabriele-maier-info/30min'}); return false;" 
-                                class="w-full bg-purple-600 hover:bg-purple-500 text-white font-bold py-4 rounded-xl shadow-lg shadow-purple-600/40 transition text-base">
-                            📅 Kostenloses KI-Erstgespräch vereinbaren
-                        </button>
+                        <a href="https://calendly.com/gabriele-maier-info" target="_blank" rel="noopener noreferrer" class="w-full bg-purple-600 hover:bg-purple-500 text-white font-bold py-4 rounded-xl shadow-lg shadow-purple-600/40 transition text-base">📅 Kostenloses Erstgespräch vereinbaren</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Die 3 weiteren Angebote (JETZT DARUNTER) -->
-    <section id="angebote" class="py-20 bg-slate-950 border-t border-brand-border">
+    <!-- Weitere Leistungen & Services -->
+    <section id="angebote" class="py-20 bg-zinc-700/60 border-t border-brand-border">
         <div class="max-w-7xl mx-auto px-6">
-            <div class="text-center mb-16">
+            <div class="text-center mb-14">
                 <h2 class="text-3xl md:text-4xl font-extrabold text-white">Weitere Leistungen & Services</h2>
-                <p class="text-slate-400 mt-3">Maßgeschneiderte Unterstützung für Ihren digitalen Marktauftritt</p>
+                <p class="text-slate-300 mt-3">Professioneller digitaler Auftritt für Ihr Unternehmen</p>
             </div>
 
-            <div class="grid md:grid-cols-3 gap-8">
-                <!-- Angebot 1 -->
-                <div class="bg-brand-cardBg border border-brand-border hover:border-purple-600/50 p-8 rounded-2xl transition shadow-xl relative group">
-                    <div class="w-14 h-14 bg-purple-600/10 text-purple-400 rounded-xl flex items-center justify-center text-2xl font-bold mb-6 group-hover:bg-purple-600 group-hover:text-white transition">
-                        💬
-                    </div>
-                    <h3 class="text-2xl font-bold text-white mb-4">Professionelles Chat-Setting</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
-                        Maximieren Sie Ihre Conversion-Rate durch qualifiziertes Chat-Setting. Wir übernehmen die persönliche Betreuung Ihrer Anfragen auf Social Media oder Messenger-Plattformen und verwandeln Interessenten in zahlende Kunden.
-                    </p>
-                    <ul class="space-y-2 text-slate-300 text-sm">
-                        <li class="flex items-center gap-2"><span class="text-purple-400">✓</span> Hohe Konvertierungsraten</li>
-                        <li class="flex items-center gap-2"><span class="text-purple-400">✓</span> Zielgerichtete Einwandbehandlung</li>
-                        <li class="flex items-center gap-2"><span class="text-purple-400">✓</span> Entlastung Ihres Vertriebsteams</li>
-                    </ul>
-                </div>
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-brand-cardBg border border-purple-500/50 p-8 md:p-10 rounded-2xl shadow-xl">
+                    <div class="flex flex-col md:flex-row gap-8 items-start">
+                        <div class="w-16 h-16 shrink-0 bg-purple-600/20 text-purple-300 rounded-xl flex items-center justify-center text-3xl">
+                            💻
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-2xl md:text-3xl font-bold text-white mb-4">Professionelle Erstellung von Homepages & Logos</h3>
+                            <p class="text-slate-300 leading-relaxed mb-6">
+                                Ein professioneller Online-Auftritt schafft Vertrauen und macht Ihr Unternehmen sichtbar.
+                                Wir erstellen moderne, übersichtliche und mobil optimierte Homepages sowie individuelle Logos,
+                                die zu Ihrem Unternehmen, Ihrer Zielgruppe und Ihrem Angebot passen.
+                            </p>
 
-                <!-- Angebot 2 -->
-                <div class="bg-brand-cardBg border border-brand-border hover:border-purple-600/50 p-8 rounded-2xl transition shadow-xl relative group">
-                    <div class="w-14 h-14 bg-purple-600/10 text-purple-400 rounded-xl flex items-center justify-center text-2xl font-bold mb-6 group-hover:bg-purple-600 group-hover:text-white transition">
-                        💻
-                    </div>
-                    <h3 class="text-2xl font-bold text-white mb-4">Webseiten & Logo-Erstellung</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
-                        Ihr visueller Auftritt ist die Visitenkarte Ihres Unternehmens. Wir designen moderne, verkaufsoptimierte Websites sowie prägnante Marken-Logos, die im Gedächtnis bleiben und Vertrauen aufbauen.
-                    </p>
-                    <ul class="space-y-2 text-slate-300 text-sm">
-                        <li class="flex items-center gap-2"><span class="text-purple-400">✓</span> Einzigartiges, modernes Design</li>
-                        <li class="flex items-center gap-2"><span class="text-purple-400">✓</span> Für Mobilgeräte perfekt optimiert</li>
-                        <li class="flex items-center gap-2"><span class="text-purple-400">✓</span> Markenstarke Logo-Entwicklung</li>
-                    </ul>
-                </div>
+                            <div class="grid sm:grid-cols-2 gap-3 text-slate-200 text-sm mb-8">
+                                <p><span class="text-purple-300 font-bold">✓</span> Individuelle Homepage-Erstellung</p>
+                                <p><span class="text-purple-300 font-bold">✓</span> Modernes, professionelles Design</p>
+                                <p><span class="text-purple-300 font-bold">✓</span> Optimiert für Smartphone & Tablet</p>
+                                <p><span class="text-purple-300 font-bold">✓</span> Individuelle Logo-Erstellung</p>
+                                <p><span class="text-purple-300 font-bold">✓</span> Gestaltung passend zu Ihrer Marke</p>
+                                <p><span class="text-purple-300 font-bold">✓</span> Persönliche Abstimmung</p>
+                            </div>
 
-                <!-- Angebot 3 -->
-                <div class="bg-brand-cardBg border border-brand-border hover:border-purple-600/50 p-8 rounded-2xl transition shadow-xl relative group">
-                    <div class="w-14 h-14 bg-purple-600/10 text-purple-400 rounded-xl flex items-center justify-center text-2xl font-bold mb-6 group-hover:bg-purple-600 group-hover:text-white transition">
-                        📝
+                            <a href="https://calendly.com/gabriele-maier-info"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="inline-block bg-purple-600 hover:bg-purple-500 text-white font-bold px-7 py-3.5 rounded-xl transition shadow-lg shadow-purple-600/30">
+                                Kostenloses Erstgespräch buchen
+                            </a>
+                        </div>
                     </div>
-                    <h3 class="text-2xl font-bold text-white mb-4">Schreibarbeiten & Copywriting</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
-                        Präzise, punktgenaue Texte für Ihre Marke. Von verkaufsstarken Werbetexten über Content-Erstellung bis hin zu strukturierten Schreib- und Korrekturarbeiten – professionell und pünktlich geliefert.
-                    </p>
-                    <ul class="space-y-2 text-slate-300 text-sm">
-                        <li class="flex items-center gap-2"><span class="text-purple-400">✓</span> Verkaufsförderndes Copywriting</li>
-                        <li class="flex items-center gap-2"><span class="text-purple-400">✓</span> Textüberarbeitung & Korrektorat</li>
-                        <li class="flex items-center gap-2"><span class="text-purple-400">✓</span> Flexible Erstellung im Homeoffice</li>
-                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer / Kontakt Section -->
-    <footer id="kontakt" class="py-16 bg-slate-950 border-t border-brand-border">
+    <footer id="kontakt" class="py-16 bg-zinc-700/70 border-t border-brand-border">
         <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
             <div>
                 <h3 class="text-3xl font-black text-white mb-4">GM Business Marketing</h3>
@@ -222,14 +195,11 @@
             </div>
 
             <div class="text-center md:text-right">
-                <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/gabriele-maier-info/30min'}); return false;" 
-                        class="bg-purple-600 hover:bg-purple-500 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition text-base inline-block">
-                    Jetzt Termin online buchen
-                </button>
+                <a href="https://calendly.com/gabriele-maier-info" target="_blank" rel="noopener noreferrer" class="bg-purple-600 hover:bg-purple-500 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition text-base inline-block">Jetzt Termin online buchen</a>
             </div>
         </div>
 
-        <div class="max-w-7xl mx-auto px-6 pt-12 mt-12 border-t border-slate-900 text-center text-slate-600 text-xs">
+        <div class="max-w-7xl mx-auto px-6 pt-12 mt-12 border-t border-zinc-600 text-center text-slate-600 text-xs">
             <p>&copy; GM Business Marketing – Alle Rechte vorbehalten.</p>
         </div>
         
