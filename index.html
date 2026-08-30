@@ -37,15 +37,25 @@
             </div>
             
             <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
-                <a href="#ki-loesungen" class="hover:text-purple-400 transition">Digitale Lösungen</a>
+                <a href="#ki-loesungen" class="hover:text-purple-400 transition">Lösungen</a>
                 
                 <a href="weitere-leistungen.html" class="hover:text-purple-300 transition">Weitere Leistungen</a>
                 <a href="ueber-uns.html" class="hover:text-purple-400 transition">Über uns</a>
-                <a href="#kontakt" class="hover:text-purple-400 transition">Kontakt</a>
+                
             </div>
 
-            <!-- Calendly CTA Button -->
-            <a href="https://calendly.com/gabriele-maier-info" target="_blank" rel="noopener noreferrer" class="bg-purple-600 hover:bg-purple-500 text-white font-bold px-5 py-2.5 rounded-xl transition shadow-lg shadow-purple-600/30">Jetzt Erstgespräch buchen</a>
+            <!-- Calendly CTA Button (Desktop) -->
+            <a href="https://calendly.com/gabriele-maier-info" target="_blank" rel="noopener noreferrer" class="hidden md:inline-flex bg-purple-600 hover:bg-purple-500 text-white font-bold px-5 py-2.5 rounded-xl transition shadow-lg shadow-purple-600/30">Jetzt Erstgespräch buchen</a>
+
+            <!-- Mobile Menü -->
+            <button id="mobile-menu-button" type="button" aria-label="Menü öffnen" aria-expanded="false" class="md:hidden text-white text-3xl leading-none p-2 rounded-lg hover:bg-white/10 transition">☰</button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden border-t border-brand-border bg-brand-darkBg px-6 py-5">
+            <div class="flex flex-col gap-4 text-base font-medium text-slate-200">
+                <a href="#ki-loesungen" class="mobile-menu-link hover:text-purple-400 transition">Lösungen</a>
+                <a href="weitere-leistungen.html" class="hover:text-purple-400 transition">Weitere Leistungen</a>
+                <a href="ueber-uns.html" class="hover:text-purple-400 transition">Über uns</a>
+            </div>
         </div>
     </nav>
 
@@ -60,11 +70,14 @@
         <h1 class="text-4xl md:text-6xl font-black text-white leading-tight mb-6">
             Digitale Lösungen, die für Sie arbeiten.<br/>
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-400">
-                Für nachhaltiges Business-Wachstum.
+                Menschen unterstützen. Nicht ersetzen.
             </span>
         </h1>
-        <p class="text-slate-400 text-lg md:text-xl max-w-3xl mx-auto mb-10">
-            Wir unterstützen Unternehmen & Selbstständige mit intelligenten Automatisierungslösungen, maßgeschneiderten Webseiten und professioneller Markenentwicklung für einen überzeugenden digitalen Auftritt.
+        <p class="text-slate-300 text-lg md:text-xl max-w-4xl mx-auto mb-4 leading-relaxed">
+            Uns geht es nicht darum, Menschen zu ersetzen, sondern die Effizienz zu steigern und Ihr Team zu entlasten.
+        </p>
+        <p class="text-slate-400 text-base md:text-lg max-w-3xl mx-auto mb-10">
+            Wir entwickeln digitale Lösungen für Unternehmen und Selbstständige, die wiederkehrende Aufgaben übernehmen, Abläufe vereinfachen und mehr Zeit für Kunden, Gäste und persönliche Betreuung schaffen.
         </p>
         
         <div class="flex flex-col sm:flex-row justify-center gap-4">
@@ -76,182 +89,214 @@
         </div>
     </section>
 
-    <!-- Angebot 1: KI Highlight für Kleinunternehmen & Hotels (JETZT OBEN) -->
+    <!-- Digitale Lösungen -->
     <section id="ki-loesungen" class="py-12 relative">
         <div class="max-w-7xl mx-auto px-6">
             <div class="bg-gradient-to-b from-purple-950/40 to-brand-cardBg border-2 border-purple-600/60 rounded-3xl p-8 md:p-12 shadow-2xl relative">
                 <span class="bg-purple-600 text-white font-black text-xs uppercase tracking-widest px-4 py-1.5 rounded-full inline-block mb-6 shadow-md">
-                    Highlight Angebot 🚀
+                    Individuell für Ihren Betrieb
                 </span>
-                
-                <div class="grid lg:grid-cols-2 gap-12 items-center">
-                    <div>
-                        <h2 class="text-3xl md:text-5xl font-black text-white mb-6">
-                            Digitale Lösungen, die für Sie arbeiten.
-                        </h2>
-                        <p class="text-slate-300 text-base md:text-lg mb-8 leading-relaxed">
-                            Von intelligenten Buchungs- und Gästeassistenten über digitale Kundenkommunikation bis hin zu individuell entwickelten Softwarelösungen: Wir entwickeln Systeme, die Zeit sparen, Abläufe vereinfachen und neue Umsatzpotenziale schaffen.
-                        </p>
 
-                        <div class="space-y-4">
-                            <div class="flex items-start gap-4">
-                                <div class="bg-purple-600/20 text-purple-400 p-2 rounded-lg font-bold">24/7</div>
-                                <div>
-                                    <h4 class="font-bold text-white">Rundum-die-Uhr-Erreichbarkeit</h4>
-                                    <p class="text-slate-400 text-sm">Keine verpassten Anfragen mehr – Kunden erhalten sofort Antworten und Terminbestätigungen.</p>
-                                </div>
-                            </div>
-                            <div class="flex items-start gap-4">
-                                <div class="bg-purple-600/20 text-purple-400 p-2 rounded-lg font-bold">📅</div>
-                                <div>
-                                    <h4 class="font-bold text-white">Vollintegrierte Buchungssoftware</h4>
-                                    <p class="text-slate-400 text-sm">Direkte Termin- & Zimmerbuchungen ohne manuellen Aufwand für Rezeption oder Büro.</p>
-                                </div>
-                            </div>
-                            <div class="flex items-start gap-4">
-                                <div class="bg-purple-600/20 text-purple-400 p-2 rounded-lg font-bold">💡</div>
-                                <div>
-                                    <h4 class="font-bold text-white">Maximale Ersparnis & Verlässlichkeit</h4>
-                                    <p class="text-slate-400 text-sm">Kein Krankenstand, keine Urlaubsausfälle, keine Lohnnebenkosten – dafür 100 % planbare Performance.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="text-center max-w-4xl mx-auto mb-10">
+                    <h2 class="text-3xl md:text-5xl font-black text-white mb-5">
+                        Weniger Routine. Mehr Zeit für Ihre Kunden und Ihr Team.
+                    </h2>
+                    <p class="text-slate-300 text-base md:text-lg leading-relaxed">
+                        Unsere Lösungen werden an Ihre Abläufe angepasst – vom ersten Anruf über Termin- und Buchungsprozesse bis zur digitalen Kunden- oder Gästebetreuung.
+                    </p>
+                </div>
 
-                    <!-- Callout Card inside Highlight -->
-                    <div class="bg-zinc-700 border border-purple-500/30 p-8 rounded-2xl text-center space-y-6">
-                        <h3 class="text-2xl font-bold text-white">Jetzt Betrieb digital aufstellen</h3>
-                        <p class="text-slate-400 text-sm">
-                            Lassen Sie uns gemeinsam prüfen, wie viel Zeit und Personalkosten Sie durch unsere KI-Buchungssoftware einsparen können.
-                        </p>
-                        <a href="https://calendly.com/gabriele-maier-info" target="_blank" rel="noopener noreferrer" class="flex w-full min-w-0 items-center justify-center text-center bg-purple-600 hover:bg-purple-500 text-white font-bold px-4 py-4 rounded-xl shadow-lg shadow-purple-600/40 transition text-sm sm:text-base leading-snug whitespace-normal break-words">📅 Kostenloses Erstgespräch vereinbaren</a>
+                <div class="grid md:grid-cols-2 gap-5">
+                    <div class="bg-zinc-700/70 border border-brand-border rounded-2xl p-6">
+                        <div class="text-3xl mb-3">☎️</div>
+                        <h3 class="text-xl font-bold text-white mb-2">Telefon & Kundenanfragen</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">Anrufe entgegennehmen, häufige Fragen beantworten, Anliegen erfassen und gezielt weiterleiten.</p>
                     </div>
+                    <div class="bg-zinc-700/70 border border-brand-border rounded-2xl p-6">
+                        <div class="text-3xl mb-3">📅</div>
+                        <h3 class="text-xl font-bold text-white mb-2">Termine & Buchungen</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">Terminwünsche, Buchungsanfragen, Umbuchungen und wiederkehrende Abläufe einfacher organisieren.</p>
+                    </div>
+                    <div class="bg-zinc-700/70 border border-brand-border rounded-2xl p-6">
+                        <div class="text-3xl mb-3">💬</div>
+                        <h3 class="text-xl font-bold text-white mb-2">Digitale Kunden- & Gästebetreuung</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">Anfragen rund um die Uhr beantworten und Kunden oder Gäste schnell zu den passenden Informationen und Angeboten führen.</p>
+                    </div>
+                    <div class="bg-zinc-700/70 border border-brand-border rounded-2xl p-6">
+                        <div class="text-3xl mb-3">⚙️</div>
+                        <h3 class="text-xl font-bold text-white mb-2">Individuelle Automatisierungen</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">Wiederkehrende Prozesse digitalisieren und bestehende Systeme sinnvoll miteinander verbinden.</p>
+                    </div>
+                </div>
+
+                <div class="mt-10 text-center">
+                    <p class="text-white font-bold text-lg">Keine Lösung von der Stange.</p>
+                    <p class="text-slate-400 mt-2 max-w-3xl mx-auto">Wir entwickeln digitale Assistenten und Automatisierungen, die zu Ihrem Unternehmen, Ihren Abläufen und Ihren Anforderungen passen.</p>
+                    <a href="https://calendly.com/gabriele-maier-info" target="_blank" rel="noopener noreferrer" class="inline-block mt-6 bg-purple-600 hover:bg-purple-500 text-white font-bold px-7 py-3.5 rounded-xl shadow-lg shadow-purple-600/30 transition">Kostenloses Erstgespräch vereinbaren</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Hotel App Demo -->
-    <section id="hotel-demo" class="py-20 px-6 bg-brand-darkBg">
+    <!-- Branchen -->
+    <section id="branchen" class="py-16 px-6 bg-zinc-700/40 border-y border-brand-border">
         <div class="max-w-7xl mx-auto">
-            <div class="text-center mb-14">
-                <span class="text-purple-300 text-sm font-bold uppercase tracking-widest">
-                    Beispiel einer individuellen Hotellösung
-                </span>
-                <h2 class="text-3xl md:text-5xl font-black text-white mt-3 mb-5">
-                    So könnte Ihre digitale Hotel-App aussehen
-                </h2>
-                <p class="text-slate-300 text-lg max-w-3xl mx-auto leading-relaxed">
-                    Eine zentrale digitale Lösung für Gästeanfragen, Buchungen, Informationen und Zusatzleistungen –
-                    individuell an Ihr Hotel, Ihre Abläufe und Ihre Gäste angepasst.
+            <div class="text-center mb-10">
+                <span class="text-purple-300 text-sm font-bold uppercase tracking-widest">Eine Lösung – viele Branchen</span>
+                <h2 class="text-3xl md:text-5xl font-black text-white mt-3 mb-4">Passend zu Ihrem Arbeitsalltag</h2>
+                <p class="text-slate-300 text-lg max-w-3xl mx-auto">Überall dort, wo Anfragen, Termine, Buchungen oder wiederkehrende Abläufe Zeit kosten, können digitale Lösungen Ihr Team spürbar entlasten.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                <div class="bg-brand-cardBg border border-brand-border rounded-2xl p-6 text-center"><div class="text-3xl mb-3">🏨</div><h3 class="font-bold text-white text-lg">Hotels & Gastronomie</h3><p class="text-slate-400 text-sm mt-2">Gästeanfragen, Buchungen, Reservierungen und Zusatzangebote.</p></div>
+                <div class="bg-brand-cardBg border border-brand-border rounded-2xl p-6 text-center"><div class="text-3xl mb-3">🩺</div><h3 class="font-bold text-white text-lg">Ärzte & Praxen</h3><p class="text-slate-400 text-sm mt-2">Terminwünsche, organisatorische Fragen und Rückrufanliegen.</p></div>
+                <div class="bg-brand-cardBg border border-brand-border rounded-2xl p-6 text-center"><div class="text-3xl mb-3">💆</div><h3 class="font-bold text-white text-lg">Therapie & Gesundheit</h3><p class="text-slate-400 text-sm mt-2">Physiotherapie, Massage, Therapiezentren und weitere Praxen.</p></div>
+                <div class="bg-brand-cardBg border border-brand-border rounded-2xl p-6 text-center"><div class="text-3xl mb-3">💅</div><h3 class="font-bold text-white text-lg">Beauty & Friseur</h3><p class="text-slate-400 text-sm mt-2">Nagelstudio, Kosmetik, Friseur, Barber und Beauty-Dienstleistungen.</p></div>
+                <div class="bg-brand-cardBg border border-brand-border rounded-2xl p-6 text-center"><div class="text-3xl mb-3">🔧</div><h3 class="font-bold text-white text-lg">KFZ & Handwerk</h3><p class="text-slate-400 text-sm mt-2">Anfragen erfassen, Termine koordinieren und Rückrufe vorbereiten.</p></div>
+                <div class="bg-brand-cardBg border border-brand-border rounded-2xl p-6 text-center"><div class="text-3xl mb-3">🏠</div><h3 class="font-bold text-white text-lg">Immobilien & Dienstleister</h3><p class="text-slate-400 text-sm mt-2">Interessentenanfragen, Terminvereinbarung und erste Qualifizierung.</p></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Musterchats -->
+    <section id="musterchats" class="py-16 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12">
+                <span class="text-purple-300 text-sm font-bold uppercase tracking-widest">So kann es in Ihrem Unternehmen aussehen</span>
+                <h2 class="text-3xl md:text-5xl font-black text-white mt-3 mb-4">Digitale Betreuung, die im Alltag wirklich hilft</h2>
+                <p class="text-slate-300 text-lg max-w-3xl mx-auto">
+                    Zwei typische Beispiele zeigen, wie Anfragen, Buchungen und Zusatzleistungen einfach und automatisch begleitet werden können.
                 </p>
             </div>
 
-            <div class="grid lg:grid-cols-2 gap-12 items-center">
-                <div class="flex justify-center">
-                    <div class="w-[320px] max-w-full bg-zinc-900 rounded-[2.5rem] border-[10px] border-zinc-800 shadow-2xl overflow-hidden">
-                        <div class="bg-gradient-to-br from-purple-700 to-purple-500 px-6 pt-7 pb-8 text-center">
-                            <div class="text-xs text-purple-100 mb-2">HOTEL DEMO</div>
-                            <h3 class="text-2xl font-black text-white">Willkommen 👋</h3>
-                            <p class="text-purple-100 text-sm mt-2">
-                                Wie können wir Ihren Aufenthalt noch angenehmer machen?
-                            </p>
+            <div class="grid lg:grid-cols-2 gap-8">
+                <!-- Hotel Chat -->
+                <div class="bg-brand-cardBg border border-brand-border rounded-3xl p-6 md:p-8 shadow-xl">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-12 h-12 rounded-full bg-purple-600/20 flex items-center justify-center text-2xl">🏨</div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white">Beispiel Hotel & Gäste</h3>
+                            <p class="text-slate-400 text-sm">Anfrage, Empfehlung und Weiterleitung zur Buchung</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-zinc-800/80 rounded-2xl p-4 space-y-4">
+                        <div class="flex justify-end">
+                            <div class="max-w-[82%] bg-purple-600 text-white rounded-2xl rounded-br-md px-4 py-3 text-sm">
+                                Haben Sie morgen Nachmittag noch einen Termin für eine Massage frei?
+                            </div>
                         </div>
 
-                        <div class="bg-zinc-100 p-5 space-y-4 text-zinc-800">
-                            <div class="bg-white rounded-2xl p-4 shadow-sm border border-zinc-200">
-                                <div class="flex items-center gap-3">
-                                    <div class="text-2xl">🛏️</div>
-                                    <div>
-                                        <p class="font-bold">Zimmer & Aufenthalt</p>
-                                        <p class="text-xs text-zinc-500">Infos, Wünsche und Services</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="bg-white rounded-2xl p-4 shadow-sm border border-zinc-200">
-                                <div class="flex items-center gap-3">
-                                    <div class="text-2xl">🍽️</div>
-                                    <div>
-                                        <p class="font-bold">Tisch reservieren</p>
-                                        <p class="text-xs text-zinc-500">Direkt einen Termin auswählen</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="bg-white rounded-2xl p-4 shadow-sm border border-zinc-200">
-                                <div class="flex items-center gap-3">
-                                    <div class="text-2xl">💆</div>
-                                    <div>
-                                        <p class="font-bold">Wellness buchen</p>
-                                        <p class="text-xs text-zinc-500">Massagen & Anwendungen</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="bg-white rounded-2xl p-4 shadow-sm border border-zinc-200">
-                                <div class="flex items-center gap-3">
-                                    <div class="text-2xl">💬</div>
-                                    <div>
-                                        <p class="font-bold">Digitaler Gästeassistent</p>
-                                        <p class="text-xs text-zinc-500">24/7 Antworten auf häufige Fragen</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="bg-purple-600 text-white rounded-2xl p-4 text-center font-bold">
-                                Zusatzleistungen entdecken
+                        <div class="flex justify-start">
+                            <div class="max-w-[82%] bg-zinc-700 text-slate-100 rounded-2xl rounded-bl-md px-4 py-3 text-sm">
+                                Gerne. Ich helfe Ihnen bei der Auswahl. Möchten Sie lieber eine entspannende Massage oder eine intensivere Behandlung?
                             </div>
                         </div>
+
+                        <div class="flex justify-end">
+                            <div class="max-w-[82%] bg-purple-600 text-white rounded-2xl rounded-br-md px-4 py-3 text-sm">
+                                Etwas Entspannendes wäre perfekt.
+                            </div>
+                        </div>
+
+                        <div class="flex justify-start">
+                            <div class="max-w-[82%] bg-zinc-700 text-slate-100 rounded-2xl rounded-bl-md px-4 py-3 text-sm">
+                                Dann könnte eine klassische Entspannungsmassage gut passen. Ich leite Sie direkt zur passenden Buchungsmöglichkeit weiter. Möchten Sie anschließend auch noch einen Tisch fürs Abendessen reservieren?
+                            </div>
+                        </div>
+
+                        <div class="flex justify-end">
+                            <div class="max-w-[82%] bg-purple-600 text-white rounded-2xl rounded-br-md px-4 py-3 text-sm">
+                                Ja, gerne für zwei Personen.
+                            </div>
+                        </div>
+
+                        <div class="flex justify-start">
+                            <div class="max-w-[82%] bg-zinc-700 text-slate-100 rounded-2xl rounded-bl-md px-4 py-3 text-sm">
+                                Sehr gerne. Ich begleite Sie gleich zur Reservierung.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-5 grid grid-cols-3 gap-2 text-center text-xs text-slate-300">
+                        <div class="bg-zinc-700/70 rounded-xl p-3">24/7 erreichbar</div>
+                        <div class="bg-zinc-700/70 rounded-xl p-3">Zusatzangebote</div>
+                        <div class="bg-zinc-700/70 rounded-xl p-3">Buchungsweg</div>
                     </div>
                 </div>
 
-                <div>
-                    <h3 class="text-3xl font-black text-white mb-6">
-                        Mehr Service für Gäste. Weniger Aufwand für Ihr Team.
-                    </h3>
-                    <p class="text-slate-300 leading-relaxed mb-8">
-                        Die Anwendung kann auf Wunsch mit bestehenden Buchungs- und Informationsprozessen
-                        verbunden werden. Gäste erhalten schnell Antworten und können Leistungen selbstständig abrufen
-                        oder buchen – während Ihr Team bei wiederkehrenden Aufgaben entlastet wird.
-                    </p>
-
-                    <div class="grid sm:grid-cols-2 gap-4">
-                        <div class="bg-brand-cardBg border border-brand-border rounded-2xl p-5">
-                            <div class="text-purple-300 font-black mb-2">24/7</div>
-                            <h4 class="font-bold text-white mb-1">Gäste-Service</h4>
-                            <p class="text-slate-400 text-sm">Antworten und Informationen rund um die Uhr.</p>
-                        </div>
-
-                        <div class="bg-brand-cardBg border border-brand-border rounded-2xl p-5">
-                            <div class="text-purple-300 font-black mb-2">📅</div>
-                            <h4 class="font-bold text-white mb-1">Direkte Buchungen</h4>
-                            <p class="text-slate-400 text-sm">Zimmer, Restaurant, Wellness oder Zusatzangebote.</p>
-                        </div>
-
-                        <div class="bg-brand-cardBg border border-brand-border rounded-2xl p-5">
-                            <div class="text-purple-300 font-black mb-2">⚙️</div>
-                            <h4 class="font-bold text-white mb-1">Automatisierte Abläufe</h4>
-                            <p class="text-slate-400 text-sm">Wiederkehrende Aufgaben digital unterstützen.</p>
-                        </div>
-
-                        <div class="bg-brand-cardBg border border-brand-border rounded-2xl p-5">
-                            <div class="text-purple-300 font-black mb-2">✨</div>
-                            <h4 class="font-bold text-white mb-1">Individuell anpassbar</h4>
-                            <p class="text-slate-400 text-sm">Design und Funktionen passend zu Ihrem Hotel.</p>
+                <!-- Friseur Chat -->
+                <div class="bg-brand-cardBg border border-brand-border rounded-3xl p-6 md:p-8 shadow-xl">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-12 h-12 rounded-full bg-purple-600/20 flex items-center justify-center text-2xl">✂️</div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white">Beispiel Friseursalon</h3>
+                            <p class="text-slate-400 text-sm">Terminvereinbarung mit Zusatzleistung</p>
                         </div>
                     </div>
 
-                    <div class="mt-8">
-                        <a href="https://calendly.com/gabriele-maier-info"
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           class="inline-block bg-purple-600 hover:bg-purple-500 text-white font-bold px-7 py-3.5 rounded-xl transition shadow-lg shadow-purple-600/30">
-                            Hotellösung unverbindlich besprechen
-                        </a>
+                    <div class="bg-zinc-800/80 rounded-2xl p-4 space-y-4">
+                        <div class="flex justify-end">
+                            <div class="max-w-[82%] bg-purple-600 text-white rounded-2xl rounded-br-md px-4 py-3 text-sm">
+                                Hallo, ich hätte gerne nächste Woche einen Termin zum Schneiden und Färben.
+                            </div>
+                        </div>
+
+                        <div class="flex justify-start">
+                            <div class="max-w-[82%] bg-zinc-700 text-slate-100 rounded-2xl rounded-bl-md px-4 py-3 text-sm">
+                                Sehr gerne. Möchten Sie lieber vormittags oder nachmittags kommen?
+                            </div>
+                        </div>
+
+                        <div class="flex justify-end">
+                            <div class="max-w-[82%] bg-purple-600 text-white rounded-2xl rounded-br-md px-4 py-3 text-sm">
+                                Am liebsten Donnerstag Nachmittag.
+                            </div>
+                        </div>
+
+                        <div class="flex justify-start">
+                            <div class="max-w-[82%] bg-zinc-700 text-slate-100 rounded-2xl rounded-bl-md px-4 py-3 text-sm">
+                                Am Donnerstag wären zum Beispiel 14:30 Uhr und 16:00 Uhr verfügbar. Welcher Termin passt Ihnen besser?
+                            </div>
+                        </div>
+
+                        <div class="flex justify-end">
+                            <div class="max-w-[82%] bg-purple-600 text-white rounded-2xl rounded-br-md px-4 py-3 text-sm">
+                                16:00 Uhr bitte.
+                            </div>
+                        </div>
+
+                        <div class="flex justify-start">
+                            <div class="max-w-[82%] bg-zinc-700 text-slate-100 rounded-2xl rounded-bl-md px-4 py-3 text-sm">
+                                Perfekt. Ich habe den Termin für Schneiden & Färben vorgemerkt. Möchten Sie zusätzlich eine Pflegebehandlung dazu buchen?
+                            </div>
+                        </div>
+
+                        <div class="flex justify-end">
+                            <div class="max-w-[82%] bg-purple-600 text-white rounded-2xl rounded-br-md px-4 py-3 text-sm">
+                                Ja, gerne.
+                            </div>
+                        </div>
+
+                        <div class="flex justify-start">
+                            <div class="max-w-[82%] bg-zinc-700 text-slate-100 rounded-2xl rounded-bl-md px-4 py-3 text-sm">
+                                Sehr gerne. Die Pflegebehandlung ist ergänzt. Sie erhalten anschließend noch eine Bestätigung.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-5 grid grid-cols-3 gap-2 text-center text-xs text-slate-300">
+                        <div class="bg-zinc-700/70 rounded-xl p-3">Terminwahl</div>
+                        <div class="bg-zinc-700/70 rounded-xl p-3">Zusatzverkauf</div>
+                        <div class="bg-zinc-700/70 rounded-xl p-3">Bestätigung</div>
                     </div>
                 </div>
             </div>
+
+            <p class="text-center text-slate-500 text-sm mt-6">
+                Die gezeigten Dialoge sind Beispiele. Funktionen und Abläufe werden individuell an das jeweilige Unternehmen und die vorhandenen Systeme angepasst.
+            </p>
         </div>
     </section>
 
@@ -310,92 +355,12 @@
                     </div>
                 </div>
 
-                <!-- Pension -->
-                <div class="bg-brand-cardBg border border-purple-500/40 rounded-3xl p-8 md:p-10 shadow-xl">
-                    <div class="flex items-start gap-4 mb-6">
-                        <div class="w-14 h-14 shrink-0 bg-purple-600/20 text-purple-300 rounded-2xl flex items-center justify-center text-2xl">
-                            🏨
-                        </div>
-                        <div>
-                            <span class="text-purple-300 text-xs font-bold uppercase tracking-widest">
-                                Beispielrechnung: Pension mit 15 Zimmern
-                            </span>
-                            <h3 class="text-2xl font-black text-white mt-1">
-                                Rund um die Uhr buchbar – mit zusätzlichem Umsatzpotenzial
-                            </h3>
-                        </div>
-                    </div>
-
-                    <p class="text-slate-300 leading-relaxed mb-6">
-                        Gerade kleinere Pensionen sind nicht rund um die Uhr an der Rezeption erreichbar.
-                        Werden Buchungsanfragen außerhalb der Rezeptionszeiten automatisiert beantwortet,
-                        kann ein Teil dieser bisher verlorenen Anfragen zurückgewonnen werden.
-                    </p>
-
-                    <div class="grid sm:grid-cols-2 gap-4 mb-7">
-                        <div class="bg-zinc-700 rounded-2xl p-5 border border-brand-border">
-                            <p class="text-purple-300 text-2xl font-black">ca. 1.620 €</p>
-                            <p class="text-slate-300 text-sm mt-1">zusätzlicher Umsatz pro Monat*</p>
-                        </div>
-                        <div class="bg-zinc-700 rounded-2xl p-5 border border-brand-border">
-                            <p class="text-purple-300 text-2xl font-black">ca. 19.400 €</p>
-                            <p class="text-slate-300 text-sm mt-1">zusätzlicher Umsatz pro Jahr*</p>
-                        </div>
-                    </div>
-
-                    <div class="space-y-2 text-slate-300 text-sm mb-6">
-                        <p><strong class="text-white">Annahmen:</strong> 15 Zimmer, Ø 60 % Auslastung, Ø Zimmerpreis 90 €</p>
-                        <p>Ø Aufenthalt 2 Nächte → Ø Buchungswert ca. 180 €</p>
-                        <p>200 Buchungsanfragen/Monat, davon geschätzt 15 % außerhalb der Rezeptionszeiten</p>
-                        <p>Konservativ angenommen: 30 % dieser Anfragen werden zu zusätzlichen Buchungen</p>
-                    </div>
-
-                    <div class="mt-6 bg-purple-900/25 rounded-2xl p-6 border border-purple-500/40">
-                        <h4 class="text-xl font-black text-white mb-3">
-                            Mehr Direktbuchungen. Weniger Abhängigkeit von Buchungsplattformen.
-                        </h4>
-                        <p class="text-slate-300 text-sm leading-relaxed mb-3">
-                            Digitale Buchungssysteme und KI-gestützte Gästekommunikation können dabei helfen,
-                            mehr Anfragen direkt in Buchungen umzuwandeln. Das ist besonders interessant,
-                            weil Online-Reiseportale häufig Provisionen von
-                            <strong class="text-white">15–25 % des Buchungswerts</strong> verlangen.
-                        </p>
-                        <p class="text-white font-semibold text-sm leading-relaxed">
-                            Direktbuchungen bedeuten nicht nur mehr Umsatzpotenzial, sondern auch weniger
-                            Provisionsabfluss an Drittanbieter.
-                        </p>
-                    </div>
-
-                    <div class="bg-zinc-700 rounded-2xl p-5 border border-brand-border">
-                        <p class="text-white font-bold mb-2">Rechenweg:</p>
-                        <p class="text-slate-300 text-sm leading-relaxed">
-                            200 Anfragen × 15 % = 30 verpasste Anfragen. Davon 30 % zurückgewonnen = 9 zusätzliche Buchungen.
-                            9 × 180 € = <strong class="text-white">1.620 € zusätzlicher Monatsumsatz</strong>.
-                        </p>
-                        <p class="text-slate-400 text-xs mt-4 leading-relaxed">
-                            *Beispielrechnung auf Basis angenommener Ausgangswerte. Umsatz ist nicht gleich Gewinn und tatsächliche Ergebnisse
-                            hängen unter anderem von Auslastung, Nachfrage, Preisen und Konversionsrate ab.
-                            Zusätzliche Umsätze durch Sauna, Infrarotkabine, Abendessen oder andere Zusatzleistungen sind hier nicht eingerechnet.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="text-center mt-10">
-                <a href="https://calendly.com/gabriele-maier-info"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="inline-block bg-purple-600 hover:bg-purple-500 text-white font-bold px-8 py-4 rounded-xl transition shadow-lg shadow-purple-600/30">
-                    Eigenes Einspar- & Umsatzpotenzial besprechen
-                </a>
-            </div>
-        </div>
-    </section>
+                
 
     <!-- Footer / Kontakt Section -->
     <footer id="kontakt" class="py-16 bg-zinc-700/70 border-t border-brand-border">
         <div class="max-w-6xl mx-auto px-6 pt-6 text-center">
-            <a href="impressum-final.html"
+            <a href="impressum.html"
                class="inline-block border border-purple-400 text-purple-200 hover:bg-purple-600 hover:text-white font-semibold px-6 py-3 rounded-xl transition">
                 Impressum
             </a>
@@ -405,7 +370,7 @@
             <div>
                 <h3 class="text-3xl font-black text-white mb-4">GM Business Marketing</h3>
                 <p class="text-slate-400 text-sm mb-6">
-                    Ihr Partner für digitale Lösungen, KI-Automatisierung und einen professionellen Unternehmensauftritt.
+                    Ihr Partner für digitale Lösungen, Automatisierung und einen professionellen Unternehmensauftritt.
                 </p>
                 <div class="space-y-3 text-slate-300 text-sm">
                     <p class="flex items-center gap-3">
@@ -429,6 +394,15 @@
         </div>
         
     </footer>
+
+<script>
+(function(){
+ const b=document.getElementById('mobile-menu-button'),m=document.getElementById('mobile-menu');
+ if(!b||!m)return;
+ b.addEventListener('click',()=>{const open=m.classList.contains('hidden');m.classList.toggle('hidden');b.textContent=open?'✕':'☰';b.setAttribute('aria-expanded',open?'true':'false');});
+ document.querySelectorAll('.mobile-menu-link').forEach(a=>a.addEventListener('click',()=>{m.classList.add('hidden');b.textContent='☰';b.setAttribute('aria-expanded','false');}));
+})();
+</script>
 
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
